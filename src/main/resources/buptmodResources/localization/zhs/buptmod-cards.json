@@ -1,0 +1,17 @@
+{
+  "buptmod:KeystrokeMaster": {
+    "NAME": "键盘大神",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 *大神 。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "buptmod:DimlyDefend": {
+    "NAME": "格挡",
+    "DESCRIPTION": "获得 !B! 点防御。",
+    "UPGRADE_DESCRIPTION": ""
+  },
+  "buptmod:CenterOfUniverse": {
+    "NAME": "宇宙中心",
+    "DESCRIPTION": "获得 !M! 点 *大神 。 NL 回合结束时失去 1 点 *大神 。",
+    "UPGRADE_DESCRIPTION": ""
+  }
+}
