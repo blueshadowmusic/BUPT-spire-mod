@@ -13,5 +13,20 @@
     "NAME": "Center of Universe",
     "DESCRIPTION": "Gain !M! Master. NL At the end of your turn, lose 1 Master.",
     "UPGRADE_DESCRIPTION": ""
+  },
+  "buptmod:SupportBloodBlooming": {
+    "NAME": "Support: Blood Blooming",
+    "DESCRIPTION": "If your HP is above half, add an Eternal Meek to your hand. Otherwise, add a Dead Red Hood to your hand. Exhaust.",
+    "UPGRADE_DESCRIPTION": "If your HP is above half, add an Eternal Meek+ to your hand. Otherwise, add a Dead Red Hood+ to your hand. Exhaust."
+  },
+  "buptmod:EternalMeek": {
+    "NAME": "Eternal Meek",
+    "DESCRIPTION": "Gain 15 Gold. NL Heal 6 HP. NL Gain 1 Max HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain 20 Gold. NL Heal 8 HP. NL Gain 2 Max HP. NL Exhaust."
+  },
+  "buptmod:DeadRedHood": {
+    "NAME": "Dead Red Hood",
+    "DESCRIPTION": "Deal !D! damage. NL If fatal, lose 1 Max HP and gain 1 Strength permanently. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If fatal, lose 1 Max HP and gain 1 Strength permanently. NL Exhaust."
   }
 }

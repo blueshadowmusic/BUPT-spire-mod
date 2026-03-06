@@ -17,8 +17,11 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import Cards.Dimly.CenterOfUniverse;
+import Cards.Dimly.DeadRedHood;
 import Cards.Dimly.DimlyDefend;
+import Cards.Dimly.EternalMeek;
 import Cards.Dimly.KeystrokeMaster;
+import Cards.Dimly.SupportBloodBlooming;
 import Characters.Dimly.Dimly;
 import basemod.BaseMod;
 import basemod.interfaces.EditCardsSubscriber;
@@ -84,6 +87,9 @@ public class BUPTMod implements PostInitializeSubscriber, EditCharactersSubscrib
 	public void receiveEditCards() {
 		loadLocalization();
 		BaseMod.addCard(new CenterOfUniverse());
+		BaseMod.addCard(new SupportBloodBlooming());
+		BaseMod.addCard(new EternalMeek());
+		BaseMod.addCard(new DeadRedHood());
 		BaseMod.addCard(new KeystrokeMaster());
 		BaseMod.addCard(new DimlyDefend());
 		unlockCards();
@@ -98,6 +104,12 @@ public class BUPTMod implements PostInitializeSubscriber, EditCharactersSubscrib
 	private void unlockCards() {
 		UnlockTracker.unlockCard(CenterOfUniverse.ID);
 		UnlockTracker.markCardAsSeen(CenterOfUniverse.ID);
+		UnlockTracker.unlockCard(SupportBloodBlooming.ID);
+		UnlockTracker.markCardAsSeen(SupportBloodBlooming.ID);
+		UnlockTracker.unlockCard(EternalMeek.ID);
+		UnlockTracker.markCardAsSeen(EternalMeek.ID);
+		UnlockTracker.unlockCard(DeadRedHood.ID);
+		UnlockTracker.markCardAsSeen(DeadRedHood.ID);
 		UnlockTracker.unlockCard(KeystrokeMaster.ID);
 		UnlockTracker.markCardAsSeen(KeystrokeMaster.ID);
 		UnlockTracker.unlockCard(DimlyDefend.ID);

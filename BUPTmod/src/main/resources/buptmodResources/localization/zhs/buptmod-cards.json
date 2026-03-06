@@ -13,5 +13,20 @@
     "NAME": "宇宙中心",
     "DESCRIPTION": "获得 !M! 点 *大神 。 NL 回合结束时失去 1 点 *大神 。",
     "UPGRADE_DESCRIPTION": ""
+  },
+  "buptmod:SupportBloodBlooming": {
+    "NAME": "支援：赤潋",
+    "DESCRIPTION": "生命值大于最大值一半时，将永恒的温柔置于手牌，否则将死神小红帽置于手牌。 NL 消耗。",
+    "UPGRADE_DESCRIPTION": "生命值大于最大值一半时，将永恒的温柔+置于手牌，否则将死神小红帽+置于手牌。 NL 消耗。"
+  },
+  "buptmod:EternalMeek": {
+    "NAME": "永恒的温柔",
+    "DESCRIPTION": "获得 15 金币。 NL 恢复 6 点生命。 NL 永久获得 1 点生命上限。 NL 消耗。",
+    "UPGRADE_DESCRIPTION": "获得 20 金币。 NL 恢复 8 点生命。 NL 永久获得 2 点生命上限。 NL 消耗。"
+  },
+  "buptmod:DeadRedHood": {
+    "NAME": "死神小红帽",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 若斩杀，则永久减少 1 点生命上限并永久获得 1 点力量。 NL 消耗。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 若斩杀，则永久减少 1 点生命上限并永久获得 1 点力量。 NL 消耗。"
   }
 }
