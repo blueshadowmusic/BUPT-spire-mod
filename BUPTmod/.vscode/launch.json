@@ -1,0 +1,22 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Java Program",
+      "request": "launch",
+      "mainClass": "com.megacrit.cardcrawl.desktop.DesktopLauncher",
+
+    // 杀戮尖塔根目录
+      "cwd": "D:/apps/steam/steamapps/common/SlayTheSpire",
+    // Java的路径
+      "javaExec": "C:/Program Files/Java/jre1.8.0_481/bin/java.exe",
+      "preLaunchTask": "maven-package",
+    // Steam的路径
+      "classPaths": [
+        "D:/apps/steam/steamapps/workshop/content/646570/1605060445/ModTheSpire.jar"
+      ]
+    }
+  ]
+}

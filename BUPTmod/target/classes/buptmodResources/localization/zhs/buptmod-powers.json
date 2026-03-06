@@ -1,0 +1,16 @@
+{
+  "buptmod:MasterPower": {
+    "NAME": "大神",
+    "DESCRIPTIONS": [
+      "带有“大神”名字的牌获得",
+      "点数值加成。"
+    ]
+  },
+  "buptmod:MasterDownPower": {
+    "NAME": "身败名裂",
+    "DESCRIPTIONS": [
+      "回合结束时失去",
+      "点 #y大神 。"
+    ]
+  }
+}
